@@ -1,0 +1,8 @@
+{
+  "title": "h1:first-child",
+  "prices": {
+    "__root": "html  body  table  tr",
+    "itemName": "td:nth-child(1)",
+    "price": "td:nth-child(2)"
+  }
+}

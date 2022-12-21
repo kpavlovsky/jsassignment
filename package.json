@@ -1,0 +1,19 @@
+{
+  "name": "lmao-ffs-tldr-just-read-the-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "scrape": "node run.js",
+    "extract": "node parseHtmls.js ./selectors.json https://gist.githubusercontent.com/kpavlovsky/0bd2eec69cc198f299237f593f1ca11d/raw/be8cccebd12b0cb501a009c0241f26e353e78c73/something.html"
+  },
+  "author": "Mr K.",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "rate-limiter-flexible": "^2.4.1",
+    "yargs": "^17.6.2"
+  }
+}
